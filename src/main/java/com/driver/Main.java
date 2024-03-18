@@ -3,10 +3,9 @@ public class Main {
     public static void main(String[] args)
     {
         Product p = new Product();
-        int ans1 = p.product(10, 20);
-        int ans2 = p.product(1, 2, 3);
-        double ans3 = p.product(1.0, 2.0);
-        System.out.println(ans1 + " "+ ans2 + " " + ans3);
+        int ans = p.product(10, 20);
+        int ans1 = p.product(10, 20, 30);
+        double ans3 = p.product(3.0, 4.0);
     }
     public static class Product {
         public int product(int x, int y) {
